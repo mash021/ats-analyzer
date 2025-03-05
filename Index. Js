@@ -1,0 +1,40 @@
+const fs = require('fs');
+const { exec } = require('child_process');
+
+const filePath = 'script.js';
+
+// تابعی برای تولید یک فانکشن جدید تصادفی
+function generateRandomFunction() {
+    const functionName = `randomFunction${Date.now()}`;
+    return `
+function ${functionName}() {
+    console.log("This is function ${functionName}");
+}
+`;
+}
+
+// بررسی وجود فایل، و ایجاد یا ویرایش آن
+fs.appendFileSync(filePath, generateRandomFunction());
+
+// اجرای دستورات Git برای کامیت و پوش کردن تغییرات
+exec('git add .', (err) => {
+    if (err) {
+        console.error('Error adding files:', err);
+        return;
+    }
+
+    exec(`git commit -m "Auto commit at ${new Date().toISOString()}"`, (err) => {
+        if (err) {
+            console.error('Error committing files:', err);
+            return;
+        }
+
+        exec('git push origin main', (err) => {
+            if (err) {
+                console.error('Error pushing to GitHub:', err);
+            } else {
+                console.log('Changes pushed successfully!');
+            }
+        });
+    });
+});
