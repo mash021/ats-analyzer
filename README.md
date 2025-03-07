@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ##
 
 <p align="center">
-  <img src="https://media.giphy.com/media/m4DS5cZirXAeMvz47E/giphy.gif" width="600px" style="border-radius: 15px; border: 2px solid #ffffff;">
+  <img src="https://media.giphy.com/media/m4DS5cZirXAeMvz47E/giphy.gif" width="600px" style="border-radius: 30px; border: 2px solid #ffffff;">
 </p>
 ## Getting Started
 
