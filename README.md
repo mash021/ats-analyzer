@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[https://media.giphy.com/media/m4DS5cZirXAeMvz47E/giphy.gif?cid=790b7611rgltu0iwfg4d1ik5z4ujeldbsy6d8oqkcxcl0kyt&ep=v1_gifs_search&rid=giphy.gif&ct=g]
 
 ## Getting Started
 
