@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-<img src="https://media.giphy.com/media/m4DS5cZirXAeMvz47E/giphy.gif" width="600px">
+##
+
+<p align="center">
+  <img src="https://media.giphy.com/media/m4DS5cZirXAeMvz47E/giphy.gif" width="600px" style="border-radius: 15px; border: 2px solid #ffffff;">
+</p>
 ## Getting Started
 
 First, run the development server:
